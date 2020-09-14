@@ -79,20 +79,6 @@ class Brok {
       teller = teller/gcd;
       nevner = nevner/gcd;
     }
-
-    /*
-    int deler = 2;
-		while (deler < 32) {
-			int rest = teller % deler;
-			int rest2 = nevner % deler;
-			if (rest == 0 && rest2 == 0) {
-				teller /= deler;
-				nevner /= deler;
-			} else {
-				deler++;
-			}
-		}
-    */
 	}
 
   // Finner GCD, greatest common divisor
